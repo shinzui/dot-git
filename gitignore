@@ -1,0 +1,15 @@
+.DS_STORE
+.DS_Store
+.class
+*~
+*.bak
+*.log
+*.swp
+*.tmproj
+.bundle
+.rbenv-version
+vendor/bundle/
+coverage
+tags
+.autoenv.zsh
+node_modules
