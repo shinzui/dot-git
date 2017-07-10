@@ -21,7 +21,7 @@
 [diff "exif"]
   textconv = exiftool
 [core]
-  editor = vim 
+  editor = vim
   excludesfile = ~user/.gitignore
 [apply]
   whitespace = nowarn
@@ -31,7 +31,7 @@
 	enabled = 1
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -43,18 +43,15 @@
 	submodule = log
 [url "https://github.com/"]
     insteadOf = gh:
-
 [url "ssh://git@github.com/"]
     insteadOf = sgh:
-
 [url "https://gist.github.com/"]
     insteadOf = gist:
-
 [url "ssh://git@gist.github.com/"]
     insteadOf = sgist:
-
 [url "https://gitlab.com/"]
     insteadOf = gl:
-
 [url "ssh://git@gitlab.com/"]
     insteadOf = sgl:
+[include]
+    path = ~/.gituserconfig
