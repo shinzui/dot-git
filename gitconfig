@@ -22,7 +22,7 @@
   textconv = exiftool
 [core]
   editor = vim
-  excludesfile = ~user/.gitignore
+  excludesfile = ~/.gitignore
 [apply]
   whitespace = nowarn
 [push]
