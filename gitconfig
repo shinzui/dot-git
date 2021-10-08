@@ -23,16 +23,19 @@
 [core]
   editor = nvim
 	excludesfile = /Users/shinzui/.gitignore
+	ignorecase = false
 [apply]
   whitespace = nowarn
 [push]
   default = tracking
 	followTags = true
+[pull]
+  rebase = true
 [rerere]
 	enabled = 1
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -66,3 +69,5 @@
 	process = git-lfs filter-process
 [credential]
 	helper = osxkeychain
+[init]
+	defaultBranch = master
